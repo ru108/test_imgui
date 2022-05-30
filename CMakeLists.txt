@@ -61,7 +61,7 @@ endforeach()
 include(FetchContent)
 FetchContent_Declare(glfw
   GIT_REPOSITORY https://github.com/glfw/glfw.git
-  GIT_TAG        3.3.4
+  GIT_TAG        3.3.7
 )
 message(STATUS "Using glfw via FetchContent")
 FetchContent_MakeAvailable(glfw)
